@@ -1,0 +1,62 @@
+[
+  {
+    "current_state": 0,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 3
+      }
+    ],
+    "next_state": 1,
+    "color": "#ff0000"
+  },
+  {
+    "current_state": 0,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 7
+      }
+    ],
+    "next_state": 1,
+    "color": "#ff0000"
+  },
+  {
+    "current_state": 0,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 8
+      }
+    ],
+    "next_state": 1,
+    "color": "#ff0000"
+  },
+  {
+    "current_state": 1,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": ">=",
+        "count": 2
+      }
+    ],
+    "next_state": 1,
+    "color": "#ff0000"
+  },
+  {
+    "current_state": 1,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "<",
+        "count": 2
+      }
+    ],
+    "next_state": 0,
+    "color": "#000000"
+  }
+]

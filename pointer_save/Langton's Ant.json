@@ -1,0 +1,1 @@
+{"rules":[{"type":"rotation","current_state":0,"angle":90,"next_state":1},{"type":"rotation","current_state":1,"angle":-90,"next_state":0}],"state_colors":{"0":"#ffffff","1":"#000000"}}

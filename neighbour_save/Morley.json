@@ -1,0 +1,98 @@
+[
+  {
+    "current_state": 0,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 3
+      }
+    ],
+    "next_state": 1,
+    "color": "#ff8800"
+  },
+  {
+    "current_state": 0,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 6
+      }
+    ],
+    "next_state": 1,
+    "color": "#ff8800"
+  },
+  {
+    "current_state": 0,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 8
+      }
+    ],
+    "next_state": 1,
+    "color": "#ff8800"
+  },
+  {
+    "current_state": 1,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 2
+      }
+    ],
+    "next_state": 1,
+    "color": "#ff8800"
+  },
+  {
+    "current_state": 1,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 4
+      }
+    ],
+    "next_state": 1,
+    "color": "#ff8800"
+  },
+  {
+    "current_state": 1,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 5
+      }
+    ],
+    "next_state": 1,
+    "color": "#ff8800"
+  },
+  {
+    "current_state": 1,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "<",
+        "count": 2
+      }
+    ],
+    "next_state": 0,
+    "color": "#000000"
+  },
+  {
+    "current_state": 1,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": ">",
+        "count": 5
+      }
+    ],
+    "next_state": 0,
+    "color": "#000000"
+  }
+]

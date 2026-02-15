@@ -1,0 +1,19 @@
+{
+  "close_window": "Delete",
+  "back": "Escape",
+  "play_pause": "space",
+  "reset": "r",
+  "move_up": "Up",
+  "move_down": "Down",
+  "move_left": "Left",
+  "move_right": "Right",
+  "zoom_in": "MouseWheel_Up",
+  "zoom_out": "MouseWheel_Down",
+  "jump_start": "Home",
+  "jump_end": "End",
+  "undo": "Control-z",
+  "redo": "Control-y",
+  "step_forward": "period",
+  "speed_up": "slash",
+  "speed_down": "minus"
+}

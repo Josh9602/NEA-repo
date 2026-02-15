@@ -1,0 +1,26 @@
+[
+  {
+    "current_state": 0,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 3
+      }
+    ],
+    "next_state": 1,
+    "color": "#ff9933"
+  },
+  {
+    "current_state": 1,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "<",
+        "count": 4
+      }
+    ],
+    "next_state": 0,
+    "color": "#ffffff"
+  }
+]

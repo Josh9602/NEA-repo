@@ -1,0 +1,50 @@
+[
+  {
+    "current_state": 0,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 3
+      }
+    ],
+    "next_state": 1,
+    "color": "#00ff00"
+  },
+  {
+    "current_state": 1,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "<=",
+        "count": 5
+      }
+    ],
+    "next_state": 1,
+    "color": "#00ff00"
+  },
+  {
+    "current_state": 1,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": "=",
+        "count": 0
+      }
+    ],
+    "next_state": 0,
+    "color": "#000000"
+  },
+  {
+    "current_state": 1,
+    "conditions": [
+      {
+        "neighbor_state": 1,
+        "operator": ">",
+        "count": 5
+      }
+    ],
+    "next_state": 0,
+    "color": "#000000"
+  }
+]
